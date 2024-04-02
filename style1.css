@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Serif Khmer","Roboto Condensed";
+}
+.header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    padding: 30px 20px;
+    width:30% ;
+    height: 300px;
+}
+.header-title h1{
+    font-size: 100px;
+    text-align: center;
+}
+.header-title p{
+    font-size: 30px;
+    text-align: center;
+}
+.header-menu-bar{
+    width: 65%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu-bar a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 40px;
+}
+.home-btn{
+    width: 150px;
+    height: 60px;
+    background-color: brown;
+    transition: 0.5s;
+}
+.home-btn:hover{
+    padding-top: 5px;
+    background-color: orangered;
+    cursor: pointer;
+    width:200px ;
+    height:80px;
+}
+.container{
+    width: 2500px;
+    height: 900px;
+    background-color: cadetblue;
+    margin: auto;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-type-movie{
+    border: 2px solid black;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height:100px ;
+    background-color: blueviolet;
+}
+.menu-type-movie a{
+    padding: 0px 20px;
+    font-size: 30px;
+}
+.search-btn{
+    margin-bottom: 2%;
+    text-align: center;
+    margin-top: 2%;
+    width: 30%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn a{
+    font-size: 30px;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.vid{
+    margin-left: 2%;
+    width: 40%;
+    height: 600px;
+    background-color: crimson; 
+}
+.vid iframe{
+    width: 100%;
+    height: 100%;
+}
+.banner video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.banner-title{
+    width: 55%;
+    height: 600px;
+    background-color: chartreuse;
+}
+.banner-title h1{
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.banner-title p{
+    padding: 30px 30px;
+    font-size: 35px;
+}
